@@ -1,5 +1,5 @@
 #!/bin/sh
 set -eax
 
-black --version
-black --check $1
+# black --version
+black $1
